@@ -1,0 +1,13 @@
+instances:
+  - name: non-prod
+    description: Non-Production Instance for Platform Maintenance
+    display_name: Non-Production
+    endpoint: non-prod.example.com
+    scheme: https
+    api_key_env: ARIZE_NONPROD_API_KEY
+  - name: prod
+    description: Production Instance for Observability and Monitoring
+    display_name: Production
+    endpoint: prod.example.com
+    scheme: https
+    api_key_env: ARIZE_PROD_API_KEY

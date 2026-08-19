@@ -1,0 +1,8 @@
+space:
+- name: space_two
+  description: ID1235
+  organizations: 
+  - cut
+  - ete
+  gcp_shortname: spacetwo
+  location: us-central1

@@ -1,0 +1,12 @@
+{
+  "permissions": {
+    "allow": [
+      "WebFetch(domain:arize.com)",
+      "WebSearch",
+      "WebFetch(domain:github.com)",
+      "WebFetch(domain:arize-client-python.readthedocs.io)",
+      "Bash(grep -n \"ServiceKeyOrgAssignment:\\\\|ServiceKeySpaceAssignment:\\\\|ApiKey:$\" spec.yaml)",
+      "Bash(sed -n '/ServiceKeyOrgAssignment:/,/^    [A-Z]/p' spec.yaml)"
+    ]
+  }
+}

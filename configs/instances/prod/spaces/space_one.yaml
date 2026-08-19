@@ -1,0 +1,8 @@
+space:
+- name: space_one
+  description: ID1234
+  organizations: 
+  - cut
+  - ete
+  gcp_shortname: spaceone
+  location: us-central1

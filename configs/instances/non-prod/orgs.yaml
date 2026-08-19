@@ -1,0 +1,5 @@
+organizations:
+  - name: cut
+    description: Code Under Test
+  - name: ete
+    description: End to End

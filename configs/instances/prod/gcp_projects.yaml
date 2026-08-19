@@ -1,0 +1,6 @@
+gcp_projects:
+  - project_id: acme-pre-prod
+    orgs:
+      - cut
+      - ete
+    default_location: us-central1
